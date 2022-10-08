@@ -17,7 +17,7 @@ Con esta nueva característica el tablero eléctrico entra a ser parte del siste
 el flexpendant; esta característica abre la posibilidad de no solo incluir pulsadores y pilotos sino diversos tipos de sensores y
 actuadores dentro del sistema robotizado. 
 
-## MATERIALESY HERRAMIENTAS
+## MATERIALES Y HERRAMIENTAS
 - brazo robótico IRB140
 - controlador ABB IRC5
 - flexpendant
@@ -72,13 +72,13 @@ Cuando el puntero llega a esta línea, el comando SetDO hace que la señal de sa
 
 Se espera que el Robot ejecute la siguiente lista de pasos:
 
--Cuando se accione la primera señal de entrada, un pulsador del tablero de entradas y salidas, el actuador debe ir a posición de HOME y luego comenzar a dibujar en el tablero las iniciales RM como se hizo en el laboratorio 1.
+- Cuando se accione la primera señal de entrada, un pulsador del tablero de entradas y salidas, el actuador debe ir a posición de HOME y luego comenzar a dibujar en el tablero las iniciales RM como se hizo en el laboratorio 1.
 
--Una vez terminado, debe regresar a la posición de HOME y encender uno de los testigos del tablero, es decir, poner salida digital en estado lógico de encendido.
+- Una vez terminado, debe regresar a la posición de HOME y encender uno de los testigos del tablero, es decir, poner salida digital en estado lógico de encendido.
 
--A continuación, cuando se accione la segunda señal de entrada, otro pulsador, el actuador debe ir a la posición de MANTENIMIENTO, es decir, una posición definida por nosotros con el fin de facilitar el cambio de la herramienta en el plato.
+- A continuación, cuando se accione la segunda señal de entrada, otro pulsador, el actuador debe ir a la posición de MANTENIMIENTO, es decir, una posición definida por nosotros con el fin de facilitar el cambio de la herramienta en el plato.
 
--Una vez el actuador llegue a esta posición, el testigo que se encontraba encendido debe apagarse, es decir, poner la salida digital nuevamente en 0.
+- Una vez el actuador llegue a esta posición, el testigo que se encontraba encendido debe apagarse, es decir, poner la salida digital nuevamente en 0.
 
 Esto se logra mediante la siguiente porción de código para la sección Main del programa RAPID.
 
