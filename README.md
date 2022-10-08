@@ -4,7 +4,6 @@
 <h1 align="center"> Universidad Nacional de Colombia <br>
 Facultad de Ingeniería <br>
 Depto. de Ing. Mecánica y Mecatrónica <br>
-Creación de entradas y salidas digitales en RobotStudio <br>
 Robótica <br>
 Laboratorio 3 - Entradas y salidas digitales <br>
 Miguel Angel Rincón Otálora <br>
