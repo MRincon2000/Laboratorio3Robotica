@@ -5,7 +5,7 @@
 Facultad de Ingeniería <br>
 Depto. de Ing. Mecánica y Mecatrónica <br>
 Robótica <br>
-Laboratorio 3 - Entradas y salidas digitales <br>
+Laboratorio 4 - 4 Robótica- Cinemática Directa con robot Phantom x Pincher <br>
 Miguel Angel Rincón Otálora <br>
 Robinson Ordúz </h1>
 
